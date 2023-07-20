@@ -4,7 +4,7 @@
     $predmet = $_POST['predmet'];
     $zprava = $_POST['zprava'];
 
-    $email_from = 'info@patrikbyz.github.io/zkplus';
+    $email_from = 'info@patrikbyz.github.io';
 
     $email_predmet = 'New form submission';
 
