@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zkplus.eu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="hlavicka-onas">
+        <nav>
+            <a href="index.html"><img id="logo" src="obrazky/logo.png" alt=""></a>
+            <div class="nav-linky" id="navlinky">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">DOMŮ</a></li>
+                    <li><a href="about.html">O NÁS</a></li>
+                    <li><a href="#">NEVIM</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div>
+            <h1>O nás</h1>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                 <h1>VÍTEJTE V ZK PLUS TOP S.R.O</h1>
+                 <p>Vítejte v naší stavební firmě! Jsme tým zkušených odborníků, kteří se specializují na stavbu a rekonstrukci rodinných domů, bytů a komerčních nemovitostí. Naše firma vznikla v roce 2018 s cílem poskytnout našim zákazníkům nejen nejvyšší kvalitu práce, ale i profesionální přístup. Naši odborníci disponují rozsáhlými zkušenostmi a znalostmi v oblasti stavebnictví, což jim umožňuje řešit i ty nejobtížnější úkoly. Věříme, že klíčem k úspěchu je spolupráce s našimi zákazníky. Proto se snažíme poslouchat a pochopit jejich požadavky a nápady, aby byly všechny projekty realizovány v souladu s jejich představami. Naše speciální místo si zaslouží realistické a cenově dostupné projekty. Z tohoto důvodu jsme schopni vypracovat individuální plány v souladu s požadavky zákazníka. Díky našemu kvalifikovanému týmu a moderním technologiím jsme schopni poskytnout nejvyšší míru 
+                    kvality a splnit vysoké standardy, které jsou pro nás samozřejmostí. Pokud máte zájem o spolupráci s naší firmou, kontaktujte nás a rádi s Vámi projednáme Vaše požadavky a potřeby
+                </p>
+                <a href="" class="kontakt-tlac dalsi-tlac">explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="obrazky/floor-interior-home-ceiling-loft-office-1390062-pxhere.com_.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer-sekce">
+        <div class="socko-ikon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="index.html">DOMŮ</a></li>
+                <li><a href="about.html">O NÁS</a></li>
+                <li><a href="">PROJEKTY</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+                <li><a href="">NEVIM</a></li>
+            </ul>
+        </div>
+        <div class="footer-dole">
+            <p>Copyright &copy; 2023. All rights reserved. designed by <span class="designer">PWEB</span></p>
+        </div>
+    </div>
+
+
+    <script>
+        var navlinky = document.getElementById("navlinky");
+
+        function showMenu() {
+            navlinky.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinky.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
